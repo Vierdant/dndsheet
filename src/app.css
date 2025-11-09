@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  /* Colors */
+  --color-bg-dark: #2a2e3b;
+  --color-bg-darker: #1b1d24;
+  --color-bg-light: #2a2e3b;
+  --color-bg-content: #1b1d24;
+  --color-bg-darker-border: #3f3e3f;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-text-light: #a0a0a0;
+  --color-accent: #bb99ff;
+  --color-accent-hover: rgba(187, 153, 255, 0.1);
+  --color-border-light: #2a2e3b;
+  --color-trait-bg: #10b981;
+  
+  /* Font Sizes */
+  --font-size-xs: 9px;
+  --font-size-sm: 10px;
+  --font-size-base: 11px;
+  --font-size-md: 12px;
+  --font-size-lg: 14px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  
+  /* Border Radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-full: 50%;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 800px;
+  overflow: hidden;
+  background-color: var(--color-bg-light);
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
